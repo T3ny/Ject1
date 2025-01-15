@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #1e1e2f;
+  color: #ffffff;
+}
+
+/* Container for grid layout */
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+.header {
+  background-color: #292943;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Content Styling with Grid Layout for sections */
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card Styling for transaction, mining, and blockchain sections */
+.card {
+  background-color: #292943;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin: 0 0 15px 0;
+}
+
+/* Styling for Transaction Form */
+.transaction-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.transaction-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for Mining Section */
+.mining button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.mining button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for Blockchain Data Section */
+.blockchain-data {
+  overflow-y: auto;
+  max-height: 300px;
+  background-color: #1e1e2f;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #292943;
+}
+
+.blockchain-data p {
+  font-family: monospace;
+  margin: 5px 0;
+  word-wrap: break-word;
+}
+
+/* Message Section Styling */
+.message {
+  font-size: 16px;
+  color: #ff0000;
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #292943;
+}
