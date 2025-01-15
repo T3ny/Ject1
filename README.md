@@ -1,1 +1,2 @@
-# Ject1
+Name: Nnoli Anthony
+occupation: software engineering in training
